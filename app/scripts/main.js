@@ -1,1 +1,2 @@
-console.log('\'Allo \'Allo!');
+import foo from './foo'
+console.log(foo);
