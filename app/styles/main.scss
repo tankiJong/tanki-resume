@@ -1,34 +1,54 @@
-@import 'variable.scss';
-@import 'style.scss';
+@import 'global.scss';
 
-$header-height: 450px;
-$bg-avatar-size: 150px;
+$header-height: 280px;
+$bg-avatar-size: 100px;
 $bg-avater-inner-size: $bg-avatar-size * 0.9;
 $info-tab-width: 40%;
-body{
-  margin: 0;
-  padding: 0;
-  background-color: $bg-color;
-  height: 2000px;
-}
 
-*{
-  @include main-font;
+$tab-max-size: 450px;
+
+
+@mixin info-tab-width-control{
+  width: $info-tab-width;
+  max-width: $tab-max-size;
+
+  @media only screen and (max-device-width: 450px){
+    &{
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-device-width: 370px){
+    &.info-tab-header{
+      height: $header-height * 1.2;
+    }
+    & .info-tab-content{
+      padding-top: $header-height * 1.2 + 120px;
+    }
+  }
 }
 
 .info-tab{
-  width: $info-tab-width;
+  @include info-tab-width-control;
   height: 100%;
   background-color: $darken-bg-color;
+
+}
+
+.info-tab-content{
+    padding: 0 20px;
+    padding-top: $header-height + 120px;
+    color: lighten($base-gray, 80%);
 }
 .info-tab-header{
+  @include info-tab-width-control;
   font-weight: bold;
   position: fixed;
-  width: $info-tab-width;
   height: $header-height;
   color: $base-gray;
   min-width: 250px;
-  background-color: $main-color;
+  background: linear-gradient($support-color, $main-color);
+  filter: drop-shadow(-11px 5px 7px #000);
 
   &:before{
     content: "";
@@ -45,24 +65,25 @@ body{
     margin: 0 auto;
     text-align: center;
     position: absolute;
-    bottom: 20%;
+    top: 10px;
 
     h1{
       @include title-font;
       font-weight: bold;
-      margin-top: 0;
+      margin-top: $bg-avatar-size + 30px;
       padding-top: 30px;
     }
 
     h3{
       @include title-font;
       font-weight: normal;
+      white-space: nowrap;
     }
   }
 
   .avatar-container{
     @include horizontal-center;
-    top: 20%;
+    top: 30px;
     width: $bg-avatar-size;
     height: $bg-avatar-size;
     background-image: url('../images/avatar.png');
@@ -82,7 +103,7 @@ body{
 
       &:hover{
         transition: border-width 0.3s ease;
-        border-width: ($bg-avatar-size - $bg-avater-inner-size) * 0.55;
+        //border-width: ($bg-avatar-size - $bg-avater-inner-size) * 0.55;
         background-image: url('../images/avatar-open.png');
       }
     }

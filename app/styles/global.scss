@@ -1,0 +1,27 @@
+@import 'includes.scss';
+
+a{
+  text-decoration: none;
+  color: $base-gray;
+  transition: opacity .3s ease;
+  &:hover{
+    opacity: 0.5;
+  }
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+  height: 2000px;
+
+  @media only screen and (min-device-width: 450px) and (max-device-width: 1000px){
+    &{
+      width: 1000px;
+    }
+  }
+}
+
+*{
+  @include main-font;
+}
