@@ -1,4 +1,5 @@
-@import 'global.scss';
+@import './global.scss';
+@import './fontello.css';
 
 $header-height: 280px;
 $bg-avatar-size: 100px;
@@ -23,7 +24,7 @@ $tab-max-size: 450px;
       height: $header-height * 1.2;
     }
     & .info-tab-content{
-      padding-top: $header-height * 1.2 + 120px;
+      padding-top: $header-height * 1.2 + 110px;
     }
   }
 }
@@ -39,6 +40,9 @@ $tab-max-size: 450px;
     padding: 0 20px;
     padding-top: $header-height + 120px;
     color: lighten($base-gray, 80%);
+    a{
+      color: darken($main-color, 10%);
+    }
 }
 .info-tab-header{
   @include info-tab-width-control;

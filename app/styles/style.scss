@@ -1,3 +1,5 @@
+@import './variable.scss';
+
 @mixin content-center{
   position: absolute;
   top:50%;
@@ -26,4 +28,8 @@
 }
 @mixin main-font{
   font-family: 'Open Sans', sans-serif;
+}
+
+@function gray($percent: 0){
+  @return lighten($base-gray, $percent);
 }

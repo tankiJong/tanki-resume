@@ -5,9 +5,11 @@ const browserSync = require('browser-sync');
 const del = require('del');
 const conf = require('./gulp/conf');
 const wiredep = require('wiredep').stream;
-
+const wpConfig = require('./webpack.config');
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
+
+console.log(wpConfig, $.webpack);
 
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.scss')
@@ -25,12 +27,10 @@ gulp.task('styles', () => {
 });
 
 gulp.task('scripts', () => {
-  return gulp.src('app/scripts/**/*.js')
+  return gulp.src('app/scripts/main.js')
     .pipe($.plumber())
-    .pipe($.sourcemaps.init())
-    .pipe($.babel())
-    .pipe($.sourcemaps.write('.'))
-    .pipe(gulp.dest('.tmp/scripts'))
+    .pipe($.webpack(wpConfig))
+    .pipe(gulp.dest('.tmp/scripts/'))
     .pipe(reload({stream: true}));
 });
 
@@ -117,6 +117,7 @@ gulp.task('serve', ['styles', 'scripts', 'fonts'], () => {
 
   gulp.watch('app/styles/**/*.scss', ['styles']);
   gulp.watch('app/scripts/**/*.js', ['scripts']);
+  gulp.watch('app/scripts/**/*.vue', ['scripts']);
   gulp.watch('app/fonts/**/*', ['fonts']);
   gulp.watch('bower.json', ['wiredep', 'fonts']);
 });
