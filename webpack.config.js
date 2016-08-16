@@ -20,6 +20,10 @@ module.exports = {
         // important: exclude files in node_modules
         // otherwise it's going to be really slow!
         exclude: /node_modules/
+      },
+      {
+        test: /\.md$/,
+        loader: 'raw'
       }
     ]
   },

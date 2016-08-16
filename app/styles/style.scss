@@ -33,3 +33,24 @@
 @function gray($percent: 0){
   @return lighten($base-gray, $percent);
 }
+
+@mixin info-tab-width-control{
+  width: $info-tab-width;
+  max-width: $tab-max-size;
+  min-width: 250px;
+
+  @media only screen and (max-device-width: 450px), only screen and (max-width: 450px){
+    &{
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-device-width: 370px), only screen and (max-width: 370px){
+    &.info-tab-header{
+      height: $header-height * 1.3;
+    }
+    & .info-tab-content{
+      padding-top: $header-height * 1.3 + 110px;
+    }
+  }
+}
