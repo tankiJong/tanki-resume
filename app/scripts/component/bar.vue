@@ -21,9 +21,9 @@ export default {
   },
   computed:{
     animationStyle(){
-      const rnd = Math.random();
+      const rnd = Math.random()*5;
       const animationTime = new Number(this.precent.replace('%', '')) / 100 * 2;
-      return `swing ${animationTime}s cubic-bezier(0.38, 0, 0.6, 0.97) ${rnd}s infinite alternate`;
+      return `swing ${animationTime}s cubic-bezier(0.6, 0.02, 0.38, 0.98) ${rnd}s infinite alternate`;
     },
 
     widthStyle(){
@@ -100,7 +100,7 @@ $word-margin: 90px;
     transform: scaleX(1) translateY(-50%);
   }
   to{
-    transform: scaleX(1.01) translateY(-50%);
+    transform: scaleX(1.05) translateY(-50%);
   }
 }
 </style>
