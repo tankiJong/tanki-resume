@@ -14,10 +14,10 @@ pre{
   }
 
   h1, h2, h3, h4, h5{
-    @include subtitle-font;
+    @include title-font;
     line-height: 35px;
     *{
-      @include subtitle-font;
+      @include title-font;
     }
   }
 
@@ -48,7 +48,8 @@ pre{
 
     li{
       font-size: 14px;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
+      @include title-font;
 
       &:before{
         font-family: "fontello";
