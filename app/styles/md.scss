@@ -1,0 +1,83 @@
+@import 'includes.scss';
+
+$line-color: #c7c7c7;
+pre{
+  margin: 20px 40px;
+  color: $base-gray;
+  white-space: normal;
+  letter-spacing: 0.1em;
+
+
+  p, ul, h1, h2, h3, h4, h5{
+    margin: 0;
+    vertical-align: middle;
+  }
+
+  h1, h2, h3, h4, h5{
+    @include subtitle-font;
+    line-height: 35px;
+    *{
+      @include subtitle-font;
+    }
+  }
+
+  h5{
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+  }
+
+  p{
+    margin: 10px 0;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+
+  h4{
+    display: inline-block;
+  }
+
+  h2{
+    display: inline-block;
+  }
+
+  ul{
+    position: relative;
+    padding-left: 20px;
+    list-style: none;
+
+    li{
+      font-size: 14px;
+      letter-spacing: 1px;
+
+      &:before{
+        font-family: "fontello";
+        content: '\f105';
+        left: 5px;
+        line-height: 19px;
+        position: absolute;
+      }
+    }
+  }
+
+  strong>em{
+    font-weight: bold;
+    font-style: normal;
+    color: $support-color;
+  }
+
+  hr{
+    border: none;
+    border-top: 2px solid $line-color;
+    position: relative;
+    margin: 30px 0;
+
+    &:before{
+      border-top: 10px solid $line-color;
+      border-left: 10px solid transparent;
+      content: '';
+      position: absolute;
+      right: 0;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 @import './global.scss';
 @import './fontello.scss';
-
+@import './md.scss';
+@import './cover.scss';
 
 .info-tab{
   @include info-tab-width-control;
@@ -10,12 +11,12 @@
 }
 
 .info-tab-content{
-    padding: 0 20px;
-    padding-top: $header-height + 120px;
-    color: lighten($base-gray, 80%);
-    a{
-      color: darken($main-color, 10%);
-    }
+  padding: 0 20px;
+  padding-top: $header-height + 120px;
+  color: lighten($base-gray, 80%);
+  a{
+    color: darken($main-color, 10%);
+  }
 }
 .info-tab-header{
   @include info-tab-width-control;
@@ -25,7 +26,8 @@
   color: $base-gray;
   z-index: 2;
   background: linear-gradient($support-color, $main-color);
-  filter: drop-shadow(-11px 5px 7px #000);
+  filter: drop-shadow(-5px 5px 7px rgba(0,0,0,.5));
+  transition: 0.2s all cubic-bezier(0.4, 0, 0.2, 1);
 
   &:before{
     content: "";
@@ -36,7 +38,10 @@
     height: 90px;
     background: linear-gradient(to right bottom, $main-color 50%, transparent 50%);
   }
-
+  .name-box-wrapper{
+    @include info-tab-width-control;
+    position: fixed;
+  }
   .name-box{
     @include horizontal-center;
     margin: 0 auto;

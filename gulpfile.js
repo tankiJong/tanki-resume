@@ -118,6 +118,7 @@ gulp.task('serve', ['styles', 'scripts', 'fonts'], () => {
   gulp.watch('app/styles/**/*.scss', ['styles']);
   gulp.watch('app/scripts/**/*.js', ['scripts']);
   gulp.watch('app/scripts/**/*.vue', ['scripts']);
+  gulp.watch('app/**/*.md', ['scripts']);
   gulp.watch('app/font/**/*', ['fonts']);
   gulp.watch('bower.json', ['wiredep', 'fonts']);
 });

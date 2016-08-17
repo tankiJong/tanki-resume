@@ -49,7 +49,7 @@ $word-margin: 90px;
   &:before{
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateZ(0);
     left: 0;
     width:100%;
     margin-left: $word-margin;
@@ -97,10 +97,10 @@ $word-margin: 90px;
 
 @keyframes swing{
   from{
-    transform: scaleX(1) translateY(-50%);
+    transform: scaleX(1) translateY(-50%) translateZ(0);
   }
   to{
-    transform: scaleX(1.05) translateY(-50%);
+    transform: scaleX(1.05) translateY(-50%) translateZ(0);
   }
 }
 </style>

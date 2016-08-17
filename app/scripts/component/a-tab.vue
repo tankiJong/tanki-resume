@@ -2,7 +2,7 @@
 <div class="a-tab">
   <div class="title" @click="notify">{{ info.title }}</div>
   <div class="content">
-    <slot>{{{ info.content }}}</slot>
+    <slot><pre>{{{ info.content }}}</pre></slot>
   </div>
 </div>
 </template>
