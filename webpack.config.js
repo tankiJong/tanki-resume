@@ -22,7 +22,7 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.md$/,
+        test: [/\.md$/, /\.html$/],
         loader: 'raw'
       }
     ]
