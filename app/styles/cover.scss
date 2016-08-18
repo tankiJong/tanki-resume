@@ -1,5 +1,13 @@
 @import 'includes.scss';
 .app.cover{
+
+  .hint-word{
+    display: block;
+    font-weight: 100;
+    font-size: 8px;
+    margin-top: 20px;
+    color: #d0d0d0;
+  }
   .info-tab-header{
     filter: none;
     max-width: 5000px;

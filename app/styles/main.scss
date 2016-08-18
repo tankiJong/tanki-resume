@@ -39,6 +39,10 @@
   }
 }
 
+.hint-word{
+  display: none;
+}
+
 .info-tab-header{
   //width: $info-tab-width;
   //max-width: $tab-max-size;
@@ -70,6 +74,7 @@
     // max-width: $tab-max-size;
     // height: $header-height;
     //transform: translateZ(0);
+    will-change: width height;
     animation: enter-in 1s ease forwards;
   }
 
