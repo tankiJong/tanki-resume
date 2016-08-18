@@ -97,10 +97,10 @@ $word-margin: 90px;
 
 @keyframes swing{
   from{
-    transform: scaleX(1) translateY(-50%) translateZ(0);
+    transform: scaleX(1) translateY(-50%);
   }
   to{
-    transform: scaleX(1.05) translateY(-50%) translateZ(0);
+    transform: scaleX(1.05) translateY(-50%);
   }
 }
 </style>
