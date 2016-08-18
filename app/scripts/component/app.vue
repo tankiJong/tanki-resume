@@ -1,7 +1,7 @@
 <template>
   <div class="app" :class="{cover: notActive}">
     <div class="info-tab">
-      <div class="info-tab-header">
+      <div class="info-tab-header" :class="{animate: !notActive}">
           <div class="name-box-wrapper">
             <div class="name-box">
               <div class="avatar-container" @click="toggle">
@@ -17,7 +17,7 @@
           </div>
         </div>
       </div>
-      <div class="info-tab-content">
+      <div class="info-tab-content" :class="{animate: !notActive}">
         Hello, I'm a full stack engineer @ <a href="http://daocloud.io">daocloud</a>.
         <skill-stack></skill-stack>
         <tabs></tabs>
