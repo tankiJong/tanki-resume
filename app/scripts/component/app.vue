@@ -5,6 +5,9 @@
         <div class="name-box-wrapper">
           <div class="name-box">
             <div class="avatar-container" @click="toggle">
+              <div class="pulse"></div>
+              <div class="pulse"></div>
+              <div class="pulse"></div>
               <div class="avatar"></div>
             </div>
             <h1>Tanki Zhang</h1>
@@ -20,7 +23,9 @@
         </div>
       </div>
       <div class="info-tab-content" :class="{animate: isActive}">
-        Hello, I'm a full stack engineer @ <a href="http://daocloud.io">daocloud</a>.
+        <div class="intro">
+          Hello, I'm a full stack engineer @ <a href="http://daocloud.io">daocloud</a>.
+        </div>
         <skill-stack></skill-stack>
         <tabs></tabs>
       </div>

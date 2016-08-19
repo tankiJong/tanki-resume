@@ -1,4 +1,4 @@
-## **Iot Lab management Platform**
+## **IoT Lab management Platform**
 #### Shanghai, China
 ##### May.2015 – Jan.2016
 **Team leader of 3, designer, architect**

@@ -35,10 +35,16 @@ export default {
   cursor: pointer;
   color: darken($bg-color, 10%);
   opacity: 1;
-  transition: opacity 0.3s;
+  border: 1px solid darken($bg-color, 10%);
+  width: 80%;
+  margin: 30px auto;
+  line-height: 30px;
+  border-radius:15px;
+  transition: all 0.5s;
 
   &:hover{
-    opacity: 0.5;
+    color: $base-gray;
+    background-color: darken($bg-color, 10%);
   }
 }
 
