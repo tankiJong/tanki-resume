@@ -48,20 +48,24 @@ export default {
   }
 }
 
-.content{
+$content-width: 100% - $info-tab-width;
+$content-margin: 40px;
+.content, pre{
   display: none;
-  position: absolute;
+  position: fixed;
   left: $info-tab-width;
+  width: calc(#{$content-width}- #{2 * $content-margin});
   color: $base-gray;
   top: 0;
-  margin: 10px;
-  height: calc(100% - 20px);
+  margin: $content-margin;
+  height: calc(100% - #{2 * $content-margin});
   overflow-y: auto;
 
 
   @media only screen and (min-width: 1125px) {
     //screen min width caculate with: $tab-max-size/$info-tab-width
     left: $tab-max-size;
+    width: calc(100% - #{$tab-max-size} - #{2 * $content-margin});
   }
 
   .active &{

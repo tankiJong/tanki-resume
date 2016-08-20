@@ -16,6 +16,7 @@ body{
   background-color: $bg-color;
   height: 100%;
   width: 100%;
+  min-height: 800px;
 
   @media only screen and (min-device-width: 450px) and (max-device-width: 1000px){
     &{

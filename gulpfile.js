@@ -115,7 +115,7 @@ gulp.task('serve', ['styles', 'scripts', 'fonts'], () => {
     '.tmp/font/**/*'
   ]).on('change', reload);
 
-  gulp.watch('app/styles/**/*.scss', ['styles']);
+  gulp.watch('app/**/*.scss', ['styles']);
   gulp.watch('app/scripts/**/*.js', ['scripts']);
   gulp.watch('app/scripts/**/*.vue', ['scripts']);
   gulp.watch('app/**/*.md', ['scripts']);

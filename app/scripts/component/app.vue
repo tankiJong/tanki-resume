@@ -5,10 +5,10 @@
         <div class="name-box-wrapper">
           <div class="name-box">
             <div class="avatar-container" @click="toggle">
-              <div class="pulse"></div>
-              <div class="pulse"></div>
-              <div class="pulse"></div>
               <div class="avatar"></div>
+              <div class="pulse"></div>
+              <div class="pulse"></div>
+              <div class="pulse"></div>
             </div>
             <h1>Tanki Zhang</h1>
             <h3>- Full Stack Engineer -</h3>
@@ -38,7 +38,7 @@ import skillStack from './skill-stack.vue';
 import tabs from './tabs.vue';
 export default {
   data:()=>({
-    isActive: false,
+    isActive: true,
   }),
   methods:{
     toggle(){

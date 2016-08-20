@@ -2,6 +2,7 @@
 @import './fontello.scss';
 @import './md.scss';
 @import './cover.scss';
+@import '../contents/about.scss';
 
 .info-tab{
   @include info-tab-width-control;
@@ -153,6 +154,7 @@
 
     .avatar{
       @include content-center;
+      z-index: 2;
       width: $bg-avater-inner-size;
       height: $bg-avater-inner-size;
       background-image: url('../images/avatar.png');
