@@ -148,7 +148,7 @@
     top: 30px;
     width: $bg-avatar-size;
     height: $bg-avatar-size;
-    background-image: url('../images/avatar.png');
+    background-image: url('../images/avatar.jpg');
     background-size: cover;
     border-radius: $bg-avatar-size;
 
@@ -157,7 +157,7 @@
       z-index: 2;
       width: $bg-avater-inner-size;
       height: $bg-avater-inner-size;
-      background-image: url('../images/avatar.png');
+      background-image: url('../images/avatar.jpg');
       background-size: $bg-avatar-size / $bg-avater-inner-size * 100%;
       background-position: center;
       border-radius: $bg-avater-inner-size;
@@ -167,13 +167,13 @@
       &:hover{
         transition: border-width 0.3s ease;
         //border-width: ($bg-avatar-size - $bg-avater-inner-size) * 0.55;
-        background-image: url('../images/avatar-open.png');
+        background-image: url('../images/avatar-open.jpg');
       }
     }
 
     &:hover{
       transition: background-image 0.5s ease;
-      background-image: url('../images/avatar-open.png');
+      background-image: url('../images/avatar-open.jpg');
     }
   }
 }
