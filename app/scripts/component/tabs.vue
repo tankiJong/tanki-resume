@@ -28,7 +28,7 @@ export default {
     },
   },
   created(){
-    this.switchTab(this.infos[2].title);
+    this.switchTab(this.infos[0].title);
   }
 }
 </script>

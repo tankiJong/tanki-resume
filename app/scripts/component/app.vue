@@ -38,7 +38,7 @@ import skillStack from './skill-stack.vue';
 import tabs from './tabs.vue';
 export default {
   data:()=>({
-    isActive: true,
+    isActive: false,
   }),
   methods:{
     toggle(){
