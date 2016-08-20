@@ -13,9 +13,9 @@
             <h1>Tanki Zhang</h1>
             <h3>- Full Stack Engineer -</h3>
             <div class="contacts">
-              <span><a href="mailto: tanki_jong@hotmail.com"><i class="demo-icon icon-mail"></i></a></span>
-              <span><a href="http://github.com/tankijong"><i class="demo-icon icon-github-circled"></i></a></span>
-              <span><a href="https://www.linkedin.com/in/tankijong"><i class="demo-icon icon-linkedin"></i></a></span>
+              <span><a target="_blank" href="mailto: tanki_jong@hotmail.com"><i class="demo-icon icon-mail"></i></a></span>
+              <span><a target="_blank" href="http://github.com/tankijong"><i class="demo-icon icon-github-circled"></i></a></span>
+              <span><a target="_blank" href="https://www.linkedin.com/in/tankijong"><i class="demo-icon icon-linkedin"></i></a></span>
 
             </div>
             <div class="hint-word">Clicking my avatar to know more about me ;)</div>
@@ -24,7 +24,7 @@
       </div>
       <div class="info-tab-content" :class="{animate: isActive}">
         <div class="intro">
-          Hello, I'm a full stack engineer @ <a href="http://daocloud.io">daocloud</a>.
+          Hello, I'm a full stack engineer @ <a target="_blank" href="http://daocloud.io">daocloud</a>.
         </div>
         <skill-stack></skill-stack>
         <tabs></tabs>
