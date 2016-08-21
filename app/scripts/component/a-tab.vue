@@ -58,7 +58,7 @@ $content-margin: 40px;
   display: none;
   position: fixed;
   left: $info-tab-width;
-  width: calc(#{$content-width}- #{2 * $content-margin});
+  width: calc(#{$content-width} - #{2 * $content-margin});
   color: $base-gray;
   top: 0;
   margin: $content-margin;
