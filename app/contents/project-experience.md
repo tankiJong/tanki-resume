@@ -9,7 +9,7 @@
 
 ***
 
-## **HOWRU**
+## **[HOWRU](http://howru.hk)**
 #### Shanghai, China
 ##### Mar.2015 – Dec.2015
 **Team leader of 3, architect, technical consultant `Hybrid Mobile` `Ionic` `AngularJS` `Django`**
