@@ -1,5 +1,5 @@
 <template>
-  <div class="app" :class="{cover: isActive, init: isInit}">
+  <div class="app" :class="{cover: !isActive, init: isInit}">
     <div class="info-tab">
       <div class="info-tab-header" :class="{animate: isActive}">
         <div class="name-box-wrapper">
