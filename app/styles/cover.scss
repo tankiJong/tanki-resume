@@ -1,5 +1,15 @@
 @import 'includes.scss';
-.app.cover{
+
+.app.init{
+  .info-tab-header{
+    filter: none;
+    max-width: 5000px;
+    width: 100%;
+    height: 100%;
+    animation: none !important;
+  }
+}
+.app:not(.cover){
 
   .hint-word{
     display: block;

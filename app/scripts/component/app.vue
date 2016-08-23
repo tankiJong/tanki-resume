@@ -1,5 +1,5 @@
 <template>
-  <div class="app" :class="{cover: !isActive}">
+  <div class="app" :class="{cover: isActive, init: isInit}">
     <div class="info-tab">
       <div class="info-tab-header" :class="{animate: isActive}">
         <div class="name-box-wrapper">
@@ -39,9 +39,11 @@ import tabs from './tabs.vue';
 export default {
   data:()=>({
     isActive: false,
+    isInit: true,
   }),
   methods:{
     toggle(){
+      this.isInit = false;
       this.isActive = !this.isActive;
     }
   },
