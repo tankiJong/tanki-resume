@@ -1,6 +1,7 @@
 ### 2016.8.23
 * more formal writing styles
 * remove cover animation when first enter the page
+
 ### 2016.8.21
 * loading avatar using progressive way
 * add ***about*** page

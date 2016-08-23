@@ -7,6 +7,15 @@ pre{
   white-space: normal;
   letter-spacing: 0.1em;
 
+  a{
+    &:after{
+      font-family: "fontello";
+      content: '\e804';
+      transform: scale(0.5) translate(-50%, -50%);
+      display: inline-block;
+    }
+  }
+
 
   p, ul, h1, h2, h3, h4, h5{
     margin: 0;
