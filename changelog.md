@@ -1,3 +1,8 @@
+#### 2016.8.26
+* add **community activity** page
+* justify the navigation layout
+* add readme
+
 ### 2016.8.23
 * more formal writing styles
 * remove cover animation when first enter the page

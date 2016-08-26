@@ -2,11 +2,14 @@ import WorkExperience from '../contents/work-experience.md';
 import ProjectExperience from '../contents/project-experience.md';
 import ChangeLog from '../../changelog.md';
 import About from '../contents/about.html';
+import CommunityWork from '../contents/community-activity.md'
+
 import marked from 'marked';
 
 const raw = {
   WorkExperience,
   ProjectExperience,
+  CommunityWork,
   About,
   ChangeLog,
 }

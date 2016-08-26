@@ -31,13 +31,12 @@ export default {
 
 .title{
   text-align: center;
-  margin-top:30px;
   cursor: pointer;
   color: darken($bg-color, 10%);
   opacity: 1;
   border: 1px solid darken($bg-color, 10%);
   width: 80%;
-  margin: 30px auto;
+  margin: 21px auto;
   line-height: 30px;
   border-radius:15px;
   transition: all 0.5s;
