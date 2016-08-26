@@ -41,16 +41,18 @@ export default {
   border-radius:15px;
   transition: all 0.5s;
 
+  &:first-child{
+    margin-top: 20px;
+  }
   &:hover{
     color: $base-gray;
     background-color: darken($bg-color, 10%);
   }
 }
 .a-tab.active .title{
-    color: $base-gray;
-    background-color: darken($bg-color, 10%);
-  }
-
+  color: $base-gray;
+  background-color: darken($bg-color, 10%);
+}
 $content-width: 100% - $info-tab-width;
 $content-margin: 40px;
 .content, pre{
