@@ -4,6 +4,8 @@
 @import './cover.scss';
 @import '../contents/about.scss';
 
+@include scrollbars(.5em, rgba(112, 128, 144, 0.26), rgba(184, 192, 200, 0.5));
+
 .info-tab{
   @include info-tab-width-control;
   height: 100%;

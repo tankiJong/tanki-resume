@@ -2,6 +2,7 @@
 * add **community activity** page
 * justify the navigation layout
 * add readme
+* customize scrollbar
 
 ### 2016.8.23
 * more formal writing styles
