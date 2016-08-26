@@ -15,6 +15,9 @@
   padding: 0 20px;
   padding-top: $header-height + 120px;
   color: lighten($base-gray, 80%);
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
 
   .intro{
     text-align: center;
@@ -52,7 +55,7 @@
   //width: $info-tab-width;
   //max-width: $tab-max-size;
   //height: $header-height;
-  min-width: 250px;
+  min-width: 450px;
   font-weight: bold;
   position: fixed;
   color: $base-gray;

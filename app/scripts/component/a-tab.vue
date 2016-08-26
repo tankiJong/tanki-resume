@@ -31,13 +31,12 @@ export default {
 
 .title{
   text-align: center;
-  margin-top:30px;
   cursor: pointer;
   color: darken($bg-color, 10%);
   opacity: 1;
   border: 1px solid darken($bg-color, 10%);
   width: 80%;
-  margin: 30px auto;
+  margin: 21px auto;
   line-height: 30px;
   border-radius:15px;
   transition: all 0.5s;
@@ -58,7 +57,7 @@ $content-margin: 40px;
   display: none;
   position: fixed;
   left: $info-tab-width;
-  width: calc(#{$content-width}- #{2 * $content-margin});
+  width: calc(#{$content-width} - #{2 * $content-margin});
   color: $base-gray;
   top: 0;
   margin: $content-margin;

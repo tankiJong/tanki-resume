@@ -1,16 +1,22 @@
 import WorkExperience from '../contents/work-experience.md';
 import ProjectExperience from '../contents/project-experience.md';
-import about from '../contents/about.html';
+import ChangeLog from '../../changelog.md';
+import About from '../contents/about.html';
+import CommunityWork from '../contents/community-activity.md'
+
 import marked from 'marked';
 
 const raw = {
   WorkExperience,
   ProjectExperience,
+  CommunityWork,
+  About,
+  ChangeLog,
 }
 
-const html = {
-  about,
-}
+// const html = {
+
+// }
 
 const md = [];
 
@@ -21,10 +27,10 @@ Object.keys(raw).forEach(k=>{
   });
 })
 
-Object.keys(html).forEach(k=>{
-  md.push({
-    title: k.replace(/([A-Z])/g," $1"),
-    content: html[k],
-  });
-})
+// Object.keys(html).forEach(k=>{
+//   md.push({
+//     title: k.replace(/([A-Z])/g," $1"),
+//     content: html[k],
+//   });
+// })
 export default md;

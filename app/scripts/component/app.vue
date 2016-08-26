@@ -1,5 +1,5 @@
 <template>
-  <div class="app" :class="{cover: !isActive}">
+  <div class="app" :class="{cover: !isActive, init: isInit}">
     <div class="info-tab">
       <div class="info-tab-header" :class="{animate: isActive}">
         <div class="name-box-wrapper">
@@ -13,10 +13,10 @@
             <h1>Tanki Zhang</h1>
             <h3>- Full Stack Engineer -</h3>
             <div class="contacts">
-              <span><a target="_blank" href="mailto: tanki_jong@hotmail.com"><i class="demo-icon icon-mail"></i></a></span>
-              <span><a target="_blank" href="http://github.com/tankijong"><i class="demo-icon icon-github-circled"></i></a></span>
-              <span><a target="_blank" href="https://www.linkedin.com/in/tankijong"><i class="demo-icon icon-linkedin"></i></a></span>
-
+              <span><a target="_blank" href="mailto: tanki_jong@hotmail.com"><i class="icon-mail"></i></a></span>
+              <span><a target="_blank" href="http://github.com/tankijong"><i class="icon-github-circled"></i></a></span>
+              <span><a target="_blank" href="https://www.linkedin.com/in/tankijong"><i class="icon-linkedin"></i></a></span>
+              <span><a target="_blank" href="http://ooops.top"><i class="icon-globe"></i></a></span>
             </div>
             <div class="hint-word">Clicking my avatar to know more about me ;)</div>
           </div>
@@ -39,9 +39,11 @@ import tabs from './tabs.vue';
 export default {
   data:()=>({
     isActive: false,
+    isInit: true,
   }),
   methods:{
     toggle(){
+      this.isInit = false;
       this.isActive = !this.isActive;
     }
   },
@@ -53,7 +55,7 @@ export default {
 </script>
 
 <style lang="sass">
-.app{
-  height: 100%;
-}
+  .app {
+    height: 100%;
+  }
 </style>
