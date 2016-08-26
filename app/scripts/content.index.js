@@ -19,11 +19,12 @@ const raw = {
 // }
 
 const md = [];
-
+const renderer = new marked.Renderer();
+renderer.link = (href, title, text) => `<a href="${href}" target="_blank">${text}</a>`;
 Object.keys(raw).forEach(k=>{
   md.push({
     title: k.replace(/([A-Z])/g," $1"),
-    content: marked(raw[k]),
+    content: marked(raw[k], { renderer }),
   });
 })
 
