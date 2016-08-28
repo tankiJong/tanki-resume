@@ -28,3 +28,8 @@ body{
 *{
   @include main-font;
 }
+
+::selection {
+  background: rgba(255, 137, 0, 0.72);
+  color: #eee;
+}

@@ -1,4 +1,7 @@
-#### 2016.8.26
+### 2016.8.29
+* responsive layout for mobile v1
+
+### 2016.8.26
 * add **community activity** page
 * justify the navigation layout
 * add readme

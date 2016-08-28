@@ -37,11 +37,12 @@
 @mixin info-tab-width-control{
   width: $info-tab-width;
   max-width: $tab-max-size;
-  min-width: 450px;
 
   @media only screen and (max-device-width: 450px), only screen and (max-width: 450px){
     &{
       width: 100%;
+      max-width: 100%;
+      min-width: 100%;
     }
   }
 

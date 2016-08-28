@@ -103,4 +103,35 @@ pre{
       border-radius: 3px;
     }
   }
+  @media only screen and (max-device-width: $mobile-max-width), only screen and (max-width: $mobile-max-width){
+    h2, h3, h4{
+      color: $bg-color;
+    }
+
+    h5{
+      display: block;
+      text-align: center;
+      float: initial;
+    }
+    p, li{
+      color: darken($bg-color, 10%);
+      display: block;
+    }
+
+    hr{
+      border-top: 2px dashed $line-color;
+      &:before{
+        display: none;
+      }
+    }
+
+    strong{
+      code{
+        color: $darken-bg-color;
+        display: inline-block;
+        line-height: 17px;
+      }
+    }
+  }
 }
+

@@ -78,4 +78,42 @@ $content-margin: 40px;
   }
 }
 
+@media only screen and (max-device-width: $mobile-max-width), only screen and (max-width: $mobile-max-width){
+  .info-tab{
+    height: auto !important;
+  }
+
+  .content{
+    position: relative;
+    margin: 20px;
+    width: calc(100% - 40px);
+    left: 0;
+    height: auto;
+    transform-origin: top;
+    overflow-y: hidden;
+  }
+
+  pre{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    height: auto;
+    display: block;
+    overflow-y: hidden;
+    .active &{
+      animation: display-pre 0.5s ease;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+@keyframes display-pre{
+  0%{
+    transform: translateY(-100%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
 </style>

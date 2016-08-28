@@ -175,5 +175,14 @@
       transform: translateX(0px) rotate(0deg);
     }
   }
-}
+  @media only screen and (max-device-width: $mobile-max-width), only screen and (max-width: $mobile-max-width){
+    &{
+      position: relative;
+      color: $bg-color;
+    }
 
+    .author-info{
+      position: relative;
+    }
+  }
+}

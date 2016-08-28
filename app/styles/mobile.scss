@@ -1,0 +1,7 @@
+@import './includes.scss';
+
+@media only screen and (max-device-width: $mobile-max-width), only screen and (max-width: $mobile-max-width){
+  .info-tab{
+    height: auto !important;
+  }
+}
