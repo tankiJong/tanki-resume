@@ -58,7 +58,7 @@
     left: -$hover-circle-size / 2 + 0.5 * $bg-avatar-size;
     top: -$hover-circle-size / 2 + 0.5 * $bg-avatar-size;
     transform-origin: 0.5 * $hover-circle-size 0.5 * $hover-circle-size;
-    //animation: wave 1.5s ease-out 0s infinite;
+    animation: wave 1.5s ease-out 0s infinite;
 
   }
   .avatar-container>.pulse{
@@ -73,7 +73,7 @@
     border-radius: 50%;
     transition: all 1s, border-radius 0s;
     transform-origin: 0.5 * $circle-size 0.5 * $circle-size;
-    //animation: wave 3s ease-out 0s infinite;
+    animation: wave 3s ease-out 0s infinite;
 
     &:nth-of-type(2) {
 		animation-delay: -500ms;

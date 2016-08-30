@@ -9,7 +9,7 @@
 
 .info-tab{
   @include info-tab-width-control;
-  height: auto;
+  height: 100%;
   background-color: $darken-bg-color;
 
 }
