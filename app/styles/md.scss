@@ -7,6 +7,12 @@ pre{
   white-space: normal;
   letter-spacing: 0.1em;
 
+  img{
+    max-width: 80%;
+    margin-top: 30px;
+    margin-left: -20px;
+  }
+
   a{
     &:after{
       font-family: "fontello";
@@ -104,6 +110,11 @@ pre{
     }
   }
   @media only screen and (max-device-width: $mobile-max-width), only screen and (max-width: $mobile-max-width){
+
+    img{
+      max-width: 100%;
+    }
+
     h2, h3, h4{
       color: $bg-color;
     }

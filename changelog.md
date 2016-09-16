@@ -1,3 +1,6 @@
+### 2016.9.16
+* screen shot for AWS hackathon visual container
+
 ### 2016.8.29
 * responsive layout for mobile v1
 
@@ -5,7 +8,7 @@
 * add **community activity** page
 * justify the navigation layout
 * add readme
-* customize scrollbar
+* customize scroll bar
 
 ### 2016.8.23
 * more formal writing styles
