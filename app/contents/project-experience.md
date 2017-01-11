@@ -8,7 +8,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9KVF6HpxTrU" frameborder="0" allowfullscreen></iframe>
 ***
 
-## **Data Transmission System Utilizing Color Code**
+## **[Data Transmission System Utilizing Color Code](http://yuntv.letv.com/bcloud.html?uu=6a15a020df&vu=04e171aa6c&width=640&pu=ffffffffff&height=480)**
 #### Shanghai, China
 ##### Jun.2014 – Dec.2014
 **Team leader of 3, software developer `Android` `Color recognition` `Voice recognition`**
