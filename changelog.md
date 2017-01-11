@@ -1,8 +1,9 @@
 ### 2017.1.10
-* add asset management project
-* add repo link for visual container
+* add `asset management` project
+* add `repo link` for visual container
 * add video link for color code
 * improve the content layout (content, margin)
+* add `daovoice` project
 ### 2016.9.16
 * screen shot for AWS hackathon visual container
 
