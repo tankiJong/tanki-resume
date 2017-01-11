@@ -121,6 +121,7 @@
   }
   .name-box-wrapper{
     @include info-tab-width-control;
+    width: 100%;
     position: fixed;
   }
   .name-box{
