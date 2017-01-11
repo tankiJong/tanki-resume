@@ -2,10 +2,15 @@
 
 $line-color: #c7c7c7;
 pre{
-  margin: 20px 40px;
   color: $base-gray;
   white-space: normal;
   letter-spacing: 0.1em;
+
+  iframe{
+    width: 1000px;
+    height: 600px;
+    max-width: 100%;
+  }
 
   img{
     max-width: 80%;

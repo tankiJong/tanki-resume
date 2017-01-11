@@ -62,7 +62,7 @@ $content-margin: 40px;
   width: calc(#{$content-width} - #{2 * $content-margin});
   color: $base-gray;
   top: 0;
-  margin: $content-margin;
+  padding: $content-margin;
   height: calc(100% - #{2 * $content-margin});
   overflow-y: auto;
 

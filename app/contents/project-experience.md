@@ -1,3 +1,13 @@
+## **[Asset Management Demo](https://github.com/tankiJong/asset-managment)**
+#### Dallas, TX
+##### Jan. 2017
+* This is a Demo for `SMU Guildhall` Application to better meet the portfolio requirements.
+* the detailed description is in the main page of github repo.
+* Here is a small showcase video for the project.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9KVF6HpxTrU" frameborder="0" allowfullscreen></iframe>
+***
+
 ## **Data Transmission System Utilizing Color Code**
 #### Shanghai, China
 ##### Jun.2014 – Dec.2014

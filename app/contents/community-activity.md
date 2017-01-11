@@ -1,4 +1,4 @@
-## **[Hackathon - AWS Summit 2016](http://awssummit.cn/Hackathon/)**
+## **[Hackathon - AWS Summit 2016](https://github.com/tankiJong/visual-container)**
 #### @Shanghai, China
 ##### Sep.2016
 **Full Stack Engineer `Docker` `SwarmKit` `Frontend`**

@@ -57,23 +57,20 @@
 }
 
 @mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
-  // For Google Chrome
   ::-webkit-scrollbar {
-      width:  $size;
-      height: $size;
-  }
-
-  ::-webkit-scrollbar-thumb {
-      background: $foreground-color;
+    width: $scroll-bar-width;
   }
 
   ::-webkit-scrollbar-track {
-      background: $background-color;
+    background-color: transparent;
   }
 
-  // For Internet Explorer
-  body {
-    scrollbar-face-color: $foreground-color;
-    scrollbar-track-color: $background-color;
+  ::-webkit-scrollbar-thumb {
+    border-radius: ($scroll-bar-width + $scroll-margin-width) / 2;
+    width: $scroll-bar-width;
+    background-color: $foreground-color;
+    background-clip: padding-box;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
   }
 }
