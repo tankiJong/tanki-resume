@@ -11,3 +11,9 @@ new Vue({
     app,
   }
 });
+
+daovoice('init', {
+  app_id: "c9ca9a76"
+});
+daovoice('update');
+

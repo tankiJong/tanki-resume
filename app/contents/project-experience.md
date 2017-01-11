@@ -8,6 +8,15 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9KVF6HpxTrU" frameborder="0" allowfullscreen></iframe>
 ***
 
+## **DaoVoice**
+#### Shanghai, China
+##### Dec.2015 – Dec.2016
+**Frontend Engineer**
+* This is a product of DaoCloud.io. As a frontend engineer, I implemented several big feature and refactored the front end data flow structure.
+* I did many different and challenge works. For example, I designed and implemented a `general solution of the data dashboard`, which is consist of several editable cards which will auto re-layout its contents when it is edited. Our developer can create a similar dashboard layout with my code. What’s more, I `redesign the whole data flow of our front end project` to meet the requirement that data is very frequently updated. Utilizing Rx.js, my data flow solution can partly refresh the page with very high performance and also make sure the data is correct. 
+![draggable-dashboard](images/daovoice-draggable-dashboard.gif)
+***
+
 ## **[Data Transmission System Utilizing Color Code](http://yuntv.letv.com/bcloud.html?uu=6a15a020df&vu=04e171aa6c&width=640&pu=ffffffffff&height=480)**
 #### Shanghai, China
 ##### Jun.2014 – Dec.2014

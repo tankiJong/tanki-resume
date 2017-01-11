@@ -86,6 +86,7 @@ $content-margin: 40px;
   .content{
     position: relative;
     margin: 20px;
+    padding:0;
     width: calc(100% - 40px);
     left: 0;
     height: auto;
@@ -100,6 +101,7 @@ $content-margin: 40px;
     left: 0;
     height: auto;
     display: block;
+    padding:0;
     overflow-y: hidden;
     .active &{
       animation: display-pre 0.5s ease;
