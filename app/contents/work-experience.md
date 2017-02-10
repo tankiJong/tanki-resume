@@ -27,3 +27,4 @@ Full Stack Engineer, Dept. of Development
 * Full stack development including ***AngularJS*** frontend and ***Flask(Python)*** backend. Daocloud is a startup based in Shanghai. The company provides cloud computing platform service. I am the core start member of their two main different products, ***Daocloud Enterprise (DCE)*** and ***DaoVoice****. DCE is a container-based distributed cluster management system. DaoVoice is an operating tool for customer service, similar to Intercom.
 * Develop and maintain the DaoStyle component library, implement new feature of those two products. 
 * Report issue and contribute code to some open source project like ui-router, angular-ui-bootstrap
+![cluster-visual](images/cluster-visual.png)

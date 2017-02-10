@@ -1,3 +1,6 @@
+### 2017.2.10
+* add cluster visualization demo picture
+
 ### 2017.1.10
 * add `asset management` project
 * add `repo link` for visual container
