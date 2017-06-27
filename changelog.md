@@ -1,3 +1,6 @@
+### 2017.6.18
+* add `Wireless Sensor Network` project
+
 ### 2017.2.10
 * add cluster visualization demo picture
 

@@ -1,3 +1,14 @@
+## **[Wireless Sensor Network](https://github.com/tankiJong/visual-network)**
+#### Dallas, TX
+##### Feb.2017 – May.2017
+* Random geometric Graph (RGG) is a kind of network, constructed by randomly plac- ing N nodes in some metric space (according to a specified probability distribution) and connecting two nodes by a link if and only if their distance is in a given range.
+* This is `Algorithm` course final project.
+* Building RGG.
+* Coloring nodes according some specific requirement.
+* Finding the best backbone of the network.
+![visual-network-1](https://github.com/tankiJong/visual-network/raw/master/network-showcase.png?raw=true)
+***
+
 ## **[Asset Management Demo](https://github.com/tankiJong/asset-managment)**
 #### Dallas, TX
 ##### Jan. 2017
