@@ -2,7 +2,7 @@
 #### @Shanghai, China
 ##### Sep.2016
 **Full Stack Engineer `Docker` `SwarmKit` `Frontend`**
-* Our team will build a serverless container platform, which can auto scale out.
+* Our team built a serverless container platform, which can auto scale out.
 * Develop the user interface
 * cooperate with other team members to design and implement the scale algorithm.
 ![visul-container](images/visual-container-platform.gif)

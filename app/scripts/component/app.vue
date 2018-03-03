@@ -11,7 +11,8 @@
               <div class="pulse"></div>
             </div>
             <h1>Tanki Zhang</h1>
-            <h3>- Full Stack Engineer -</h3>
+            <h3>- Game Developer -</h3>
+            <h3>- Full Stack Web Engineer -</h3>
             <div class="contacts">
               <span><a target="_blank" href="mailto: tanki_jong@hotmail.com"><i class="icon-mail"></i></a></span>
               <span><a target="_blank" href="http://github.com/tankijong"><i class="icon-github-circled"></i></a></span>
@@ -24,7 +25,7 @@
       </div>
       <div class="info-tab-content" :class="{animate: isActive}">
         <div class="intro">
-          Hello, I'm a full stack engineer @ <a target="_blank" href="http://daocloud.io">daocloud</a>.
+          Hello, I'm a game developer @ <a target="_blank" href="//smu.edu/Guildhall">SMU Guildhall</a>.
         </div>
         <skill-stack></skill-stack>
         <tabs></tabs>

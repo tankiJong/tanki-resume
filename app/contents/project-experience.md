@@ -1,6 +1,16 @@
+## **[Morph Engine](https://github.com/tankiJong/morph-engine)**
+#### Dallas, TX
+##### August.2017 - Now
+** `C++` `Game Engine`**
+* Morph Engine is my personal game engine developed in C++.
+* As my personal preference, modern C++ features are widely introduced in the engine.
+* Still in development.
+***
+
 ## **[Wireless Sensor Network](https://github.com/tankiJong/visual-network)**
 #### Dallas, TX
 ##### Feb.2017 – May.2017
+**Self Course Research `Java` `Algorithm`**
 * Random geometric Graph (RGG) is a kind of network, constructed by randomly plac- ing N nodes in some metric space (according to a specified probability distribution) and connecting two nodes by a link if and only if their distance is in a given range.
 * This is `Algorithm` course final project.
 * Building RGG.
@@ -12,6 +22,7 @@
 ## **[Asset Management Demo](https://github.com/tankiJong/asset-managment)**
 #### Dallas, TX
 ##### Jan. 2017
+**Self Course Research `C++` `Algorithm`**
 * This is a Demo for `SMU Guildhall` Application to better meet the portfolio requirements.
 * the detailed description is in the main page of github repo.
 * Here is a small showcase video for the project.
@@ -20,9 +31,9 @@
 ***
 
 ## **DaoVoice**
-#### Shanghai, China
+#### DaoCloud Inc, Shanghai, China
 ##### Dec.2015 – Dec.2016
-**Frontend Engineer**
+**Leader of 5, Frontend Engineer `AngularJS` `RxJs`**
 * This is a product of DaoCloud.io. As a frontend engineer, I implemented several big feature and refactored the front end data flow structure.
 * I did many different and challenge works. For example, I designed and implemented a `general solution of the data dashboard`, which is consist of several editable cards which will auto re-layout its contents when it is edited. Our developer can create a similar dashboard layout with my code. What’s more, I `redesign the whole data flow of our front end project` to meet the requirement that data is very frequently updated. Utilizing Rx.js, my data flow solution can partly refresh the page with very high performance and also make sure the data is correct. 
 ![draggable-dashboard](images/daovoice-draggable-dashboard.gif)
@@ -49,7 +60,7 @@
 
 ***
 
-## **[HOWRU](http://howru.hk)**
+## **HOWRU**
 #### Shanghai, China
 ##### Mar.2015 – Dec.2015
 **Team leader of 3, architect, technical consultant `Hybrid Mobile` `Ionic` `AngularJS` `Django`**
