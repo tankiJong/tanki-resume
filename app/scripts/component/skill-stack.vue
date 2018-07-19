@@ -1,10 +1,11 @@
 <template>
   <div class="skill-stack">
     <div class="programming">
-      <bar precent="90%" name="HTML & CSS"></bar>
-      <bar precent="90%" name="JavaScript"></bar>
-      <bar precent="85%" name="Java"></bar>
       <bar precent="90%" name="C++"></bar>
+      <bar precent="90%" name="JavaScript"></bar>
+      <bar precent="90%" name="Java"></bar>
+      <bar precent="90%" name="UE4"></bar>
+      <bar precent="90%" name="Unity"></bar>
     </div>
     <div class=""></div>
   </div>

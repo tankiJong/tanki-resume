@@ -65,6 +65,10 @@ pre{
 
   h2{
     display: inline-block;
+    code {
+      background: #00ccd8;
+      padding: 0 5px;
+    }
   }
 
   ul{
@@ -149,6 +153,18 @@ pre{
         line-height: 17px;
       }
     }
+  }
+
+  .extra {
+    img {
+      margin: 0;
+      display: inline-block;
+    }
+  }
+  .morph-gallary {
+    img {
+      max-height: 350px;
+      }
   }
 }
 
