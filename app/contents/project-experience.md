@@ -9,7 +9,9 @@
 * The ***Adventure game***(GIF 2) is a tiled based 2D explore game when I learned how to do ***procedure generation*** and use ***Dijkstra Distance*** to do path finding and battle fog. 
 
 <div class="extra morph-gallary">
-  <img src="images/morph-asteroid.gif"><img src="images/morph-adventure.gif">
+  <img src="images/morph-asteroid.gif">
+  <img src="images/morph-adventure.gif">
+  <img src="images/morph-muti-lights.jpg">
 </div>
 ***
 

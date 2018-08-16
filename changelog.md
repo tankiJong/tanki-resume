@@ -1,3 +1,7 @@
+### 2018.8.16
+* add phong lighting sample for `morph engine`
+* update resume
+
 ### 2018.7.18
 * remove some old project experience
 * add some new project experience
