@@ -1,3 +1,7 @@
+### 2018.8.20
+* add thesis project
+* add description for lighting picture
+
 ### 2018.8.16
 * add phong lighting sample for `morph engine`
 * update resume

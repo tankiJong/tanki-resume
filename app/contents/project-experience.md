@@ -1,3 +1,18 @@
+## `SOLO` **Thesis: Hybrid Rendering Pipeline and Denosing Method**
+#### Dallas, TX
+##### Jul 2018 – May 2019
+** `C++` `Graphics`**
+* Based on a deferred rendering pipeline, use ray tracing method to handle the ambient occlusion and shadow. 
+* Learn different frameworks to implement the ray tracer, including DXR, Compute shader, CUDA… 
+* Design and implement the framework so that frame data can get collected during the run time for filter training. 
+* Apply filters to noisy ray traced buffer, compare and analyze the result.
+
+<div class="extra">
+  <img src="images/thesis-pipeline.png" style="width: 100%; max-width: 800px">
+</div>
+***
+
+
 ## `SOLO` **[Morph Engine](https://github.com/tankiJong/morph-engine)**
 #### Dallas, TX
 ##### August.2017 - Now
@@ -7,6 +22,7 @@
 * Build several small game using the engine to learn different aspects of the game engine.
 * The ***Asteroid game***(GIF 1) is the first game I made, it's a 2D shooting game with corrective physics.
 * The ***Adventure game***(GIF 2) is a tiled based 2D explore game when I learned how to do ***procedure generation*** and use ***Dijkstra Distance*** to do path finding and battle fog. 
+* the third figure is a test scene built to test my renderer works correctly for multiple lights.
 
 <div class="extra morph-gallary">
   <img src="images/morph-asteroid.gif">
