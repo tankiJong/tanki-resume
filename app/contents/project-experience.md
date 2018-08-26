@@ -2,13 +2,15 @@
 #### Dallas, TX
 ##### Jul 2018 – May 2019
 ** `C++` `Graphics`**
-* Based on a deferred rendering pipeline, use ray tracing method to handle the ambient occlusion and shadow. 
+* Based on a deferred rendering pipeline, use ray tracing method to handle the ambient occlusion(AO) and shadow. 
 * Learn different frameworks to implement the ray tracer, including DXR, Compute shader, CUDA… 
 * Design and implement the framework so that frame data can get collected during the run time for filter training. 
 * Apply filters to noisy ray traced buffer, compare and analyze the result.
+* Figure 2 is an ***ray-traced real-time AO buffer***. Compared with screen space AO, the result are closer to the ground truth and can better handle the dark corner.
 
-<div class="extra">
-  <img src="images/thesis-pipeline.png" style="width: 100%; max-width: 800px">
+<div class="extra morph-gallary">
+  <img src="images/thesis-pipeline.png">
+  <img src="images/thesis-rt-ao.png">
 </div>
 ***
 
