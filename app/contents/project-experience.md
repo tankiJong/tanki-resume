@@ -7,10 +7,13 @@
 * Design and implement the framework so that frame data can get collected during the run time for filter training. 
 * Apply filters to noisy ray traced buffer, compare and analyze the result.
 * Figure 2 is an ***ray-traced real-time AO buffer***. Compared with screen space AO, the result are closer to the ground truth and can better handle the dark corner.
-
+* Figure 3 is the visualization of ***Surfels***, which are used to store Global Illumination data.
+* Figure 4 is the ***cornell box*** rendered by my pipeline.
 <div class="extra morph-gallary">
   <img src="images/thesis-pipeline.png">
   <img src="images/thesis-rt-ao.png">
+  <img src="images/thesis-rt-surfel.png">
+  <img src="images/thesis-cornell-box.png">
 </div>
 ***
 
