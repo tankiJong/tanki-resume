@@ -1,3 +1,6 @@
+### 2018.10.25
+* update thesis project content
+
 ### 2018.8.20
 * add thesis project
 * add description for lighting picture

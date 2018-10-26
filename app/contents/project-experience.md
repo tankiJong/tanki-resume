@@ -2,16 +2,16 @@
 #### Dallas, TX
 ##### Jul 2018 – May 2019
 ** `C++` `Graphics`**
-* Based on a deferred rendering pipeline, use ray tracing method to handle the ambient occlusion(AO) and shadow. 
+* Based on a deferred rendering pipeline, use ray tracing method to handle the global illumination. 
 * Learn different frameworks to implement the ray tracer, including DXR, Compute shader, CUDA… 
-* Design and implement the framework so that frame data can get collected during the run time for filter training. 
-* Apply filters to noisy ray traced buffer, compare and analyze the result.
-* Figure 2 is an ***ray-traced real-time AO buffer***. Compared with screen space AO, the result are closer to the ground truth and can better handle the dark corner.
-* Figure 3 is the visualization of ***Surfels***, which are used to store Global Illumination data.
-* Figure 4 is the ***cornell box*** rendered by my pipeline.
+* Mainly refrerenced Nvidia's raytrace denoiser and EA seed's PICA PICA GI method.
+* Figure 1 is the comparison among ***temporal accumlated AO***, ***Denoised AO***, ***Raytraced AO*** for a rotated cornell box scene(the same scene to figure 4).
+* Figure 2 my method of adaptive integration 1D visualization, my method can almost converge to the new result in about 80 samples, with a window size of 128 sample.
+* Figure 3 is the surfel visualization of the ***cornell box*** scene.
+* Figure 4 is the ***cornell box*** scene rendered by my pipeline
 <div class="extra morph-gallary">
-  <img src="images/thesis-pipeline.png">
   <img src="images/thesis-rt-ao.png">
+  <img src="images/thesis-adaptive-integration.gif">
   <img src="images/thesis-rt-surfel.png">
   <img src="images/thesis-cornell-box.png">
 </div>
@@ -59,6 +59,7 @@
 * Do technical research and implement split screen multiplayer so that we can enable post processing (which is disabled if we use unreal built-in split screen)
 * Explore different features in the Unreal engine to build a frame budget and predict the potential game complexity our team can have.
 * Focused on the performance, make the game running at 60+ FPS; profile the level and discuss with my team members to optimize the levels to achieve perfect balance between frame rate and gaming experience.
+* Achieve over 50% performance improvement on the frame rate. The game can run at about 55 FPS for 4 players split screen and 60 FPS for single player.
 * Author a general [Unreal Performance Guide](https://github.com/tankiJong/tanki-resume/blob/master/source/tanki-zhang-unreal-guide.pdf?raw=true).
 
 <div class="extra">
