@@ -1,3 +1,6 @@
+### 2018.11.7
+* add compatible solution for Edge.
+
 ### 2018.10.25
 * update thesis project content
 

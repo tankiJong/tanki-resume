@@ -85,6 +85,12 @@
     animation: enter-in 1s ease forwards;
   }
 
+  &.nc-animate {
+    max-width: $tab-max-size;
+    width: $info-tab-width;
+    height: $header-height;
+    filter: drop-shadow(-5px 5px 7px rgba(0,0,0,.5));
+  }
   @keyframes enter-in{
     0%{
       max-width: 5000px;

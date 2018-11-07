@@ -1,7 +1,7 @@
 <template>
-  <div class="app" :class="{cover: !isActive, init: isInit}">
+  <div class="app" :class="{cover: !active, init: isInit}">
     <div class="info-tab">
-      <div class="info-tab-header" :class="{animate: isActive}">
+      <div class="info-tab-header" :class="{'animate': isActive, 'nc-animate': isNotChromeActive}">
         <div class="name-box-wrapper">
           <div class="name-box">
             <div class="avatar-container" @click="toggle">
@@ -40,12 +40,24 @@ import tabs from './tabs.vue';
 export default {
   data:()=>({
     isActive: false,
+    isNotChromeActive: false,
     isInit: true,
   }),
   methods:{
     toggle(){
       this.isInit = false;
-      this.isActive = !this.isActive;
+
+      const isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+      if(!isChrome){
+        this.isNotChromeActive = !this.isNotChromeActive;
+      } else {
+        this.isActive = !this.isActive;
+      }
+    }
+  },
+  computed:{
+    active() {
+      return this.isActive || this.isNotChromeActive;
     }
   },
   components:{
