@@ -1,3 +1,7 @@
+### 2018.11.28
+* add more content for thesis project
+* add CppCon volunteer experience
+
 ### 2018.11.7
 * add compatible solution for Edge.
 
@@ -34,6 +38,7 @@
 * add video link for color code
 * improve the content layout (content, margin)
 * add `daovoice` project
+
 ### 2016.9.16
 * screen shot for AWS hackathon visual container
 

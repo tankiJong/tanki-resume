@@ -9,11 +9,13 @@
 * Figure 2 my method of adaptive integration 1D visualization, my method can almost converge to the new result in about 80 samples, with a window size of 128 sample.
 * Figure 3 is the surfel visualization of the ***cornell box*** scene.
 * Figure 4 is the ***cornell box*** scene rendered by my pipeline
+* Figure 5 is the BVH(Bounding volume hierarchy) debug view of ***stanford bunny*** in my pipeline
 <div class="extra morph-gallary">
   <img src="images/thesis-rt-ao.png">
   <img src="images/thesis-adaptive-integration.gif">
   <img src="images/thesis-rt-surfel.png">
   <img src="images/thesis-cornell-box.png">
+  <img src="images/thesis-rt-bvh-debug.png">
 </div>
 ***
 
