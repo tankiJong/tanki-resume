@@ -17,7 +17,7 @@
               <span><a target="_blank" href="mailto: tanki_jong@hotmail.com"><i class="icon-mail"></i></a></span>
               <span><a target="_blank" href="http://github.com/tankijong"><i class="icon-github-circled"></i></a></span>
               <span><a target="_blank" href="https://www.linkedin.com/in/tankijong"><i class="icon-linkedin"></i></a></span>
-              <span><a target="_blank" href="https://github.com/tankiJong/tanki-resume/blob/master/source/tianyi-zhang-resume.pdf?raw=true"><i class="icon-globe"></i></a></span>
+              <span><a target="_blank" href="https://twitter.com/tankiistanki"><i class="icon-twitter"></i></a></span>
             </div>
             <div class="hint-word">Clicking my avatar to know more about me ;)</div>
           </div>
