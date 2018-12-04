@@ -156,7 +156,7 @@ pre{
   }
 
   .extra {
-    img {
+    img, video {
       margin: 0;
       display: inline-block;
     }
@@ -164,7 +164,10 @@ pre{
   .morph-gallary {
     img {
       max-height: 350px;
-      }
+    }
+    video {
+      max-height: 350px;
+    }
   }
 }
 

@@ -1,4 +1,4 @@
-## `SOLO` **Thesis: Hybrid Real-time Rendering Pipeline and Denosing Method**
+## `SOLO` **[Thesis: Hybrid Real-time Rendering Pipeline and Denosing Method](https://github.com/tankiJong/morph-engine/tree/dx12/Engine/Renderer/SceneRenderer)**
 #### Dallas, TX
 ##### Jul 2018 – May 2019
 ** `C++` `Graphics`**
@@ -8,13 +8,16 @@
 * Figure 1 is the comparison among ***temporal accumlated AO***, ***Denoised AO***, ***Ground truth***(Rendered by my path tracer) for a rotated cornell box scene(the same scene to figure 5).
 * Figure 2 is the comparison among ***Surfel based Indirect Lighting***, ***Ground truth***(Rendered by my path tracer), ***Surfel based Indirect Lighting with denoised AO***.
 * Figure 3 my method of adaptive integration 1D visualization, my method can almost converge to the new result in about 80 samples, with a window size of 128 sample.
-* Figure 4 is the surfel visualization of the ***cornell box*** scene.
-* Figure 5 is the ***cornell box*** scene rendered by my pipeline
-* Figure 6 is the BVH(Bounding volume hierarchy) debug view of ***stanford bunny*** in my pipeline, rendered through geometry shader.
+* Figure 5 is the surfel visualization of the ***cornell box*** scene.
+* Figure 6 is the ***cornell box*** scene rendered by my pipeline
+* Figure 7 is the BVH(Bounding volume hierarchy) debug view of ***stanford bunny*** in my pipeline, rendered through geometry shader.
 <div class="extra morph-gallary">
   <img src="images/thesis-rt-ao.png">
   <img src="images/thesis-rt-bunny.png">
   <img src="images/thesis-adaptive-integration.gif">
+  <video controls autoplay loop>
+    <source src="images/thesis-box.mp4" type="video/mp4">
+  </video>
   <img src="images/thesis-rt-surfel.png">
   <img src="images/thesis-cornell-box.png">
   <img src="images/thesis-rt-bvh-debug.png">
