@@ -1,3 +1,16 @@
+## `SOLO` **[Urban Renderer](https://github.com/tankiJong/urban/)**
+##### May 2019 – Now
+** `C++` `Graphics`**
+* The goal of the framework is to provide a place for myself to do various different rendering experiments, mainly about low/middle level work. I use ***Github Issue/Project*** to manage my "wishlist" items, you can check [here](https://github.com/tankiJong/urban/issues) to see what I was doing and plan to do.
+* Current D3D12 Based, but have plan(and has already had abstraction layer) to provide support for Vulkan.
+* Cool things I did(low Level to high level): Bindless, Command List based work submission, Stateless RHI Layer, Multi Command List/Queue support, Resource & Descriptor Management, Asset Importing, PBR material system, Unreal 4 PBR Model based shading + IBL.
+* Things I plan to explore:  Muliti threaded engine, unified Job system(Thread as CPU worker, Command Queue as GPU worker); high Level Material/Shading Model support through surface shader; DXR based Ray Tracing support(on going)...
+<div class="extra morph-gallary">
+  <img src="images/urban-pbr-helmet.png">
+</div>
+***
+
+
 ## `SOLO` **[Thesis: Hybrid Real-time Rendering Pipeline and Denosing Method](https://github.com/tankiJong/morph-engine/tree/dx12/Engine/Renderer/SceneRenderer)**
 #### Dallas, TX
 ##### Jul 2018 – May 2019
@@ -27,11 +40,12 @@
 
 ## `SOLO` **[Morph Engine](https://github.com/tankiJong/morph-engine)**
 #### Dallas, TX
-##### August.2017 - Now
+##### August.2017 - May 2019
 ** `C++` `General Game Engine`**
 * Morph Engine is my personal game engine developed in C++， the ***main feature list is available in the project main page***.
 * Adopt many ***modern C++ features*** when I develop the engine to get more experience with the language.
 * Build several small game using the engine to learn different aspects of the game engine.
+* Game projects including ***Minecraft clone***, ***Asteroid***, ***Adventure***. 
 * The ***Asteroid game***(GIF 1) is the first game I made, it's a 2D shooting game with corrective physics.
 * The ***Adventure game***(GIF 2) is a tiled based 2D explore game when I learned how to do ***procedure generation*** and use ***Dijkstra Distance*** to do path finding and battle fog. 
 * the third figure is a test scene built to test my renderer works correctly for multiple lights.
