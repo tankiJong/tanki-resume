@@ -1,10 +1,19 @@
-## **[Volunteer - CppCon 2018](https://cppcon.org)**
+## **[Ray Tracing Gem - Chinese Version](https://github.com/vinjn/ray-tracing-gems-cn)**
+##### Apr.2019 ~ Now
+**Translator `C++` `Graphics` `Ray Tracing`**
+* Coordinate and translate content of the book.
+* Communicate with the original authors to clarify ambiguity.
+
+***
+
+## **[Volunteer - CppCon 2018, CppCon 2019](https://cppcon.org)**
 #### @bellevue, Washington
-##### Sep.2018
+##### Sep.2018 Sep.2019
 **Volunteer `C++`**
 * Attend the conference as a volunteer
 * help onboarding the new volunteers and coordinate with the speaker mentor program
 * assist attendees during the conference and be responsible for several sessions
+* Received grant to attend CppCon 2019
 
 ***
 

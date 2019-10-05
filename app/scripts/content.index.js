@@ -10,7 +10,7 @@ const raw = {
   WorkExperience,
   ProjectExperience,
   CommunityWork,
-  About,
+  // About,
   ChangeLog,
 }
 

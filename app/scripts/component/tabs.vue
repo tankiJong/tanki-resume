@@ -2,6 +2,9 @@
   <div class="tabs">
     <a-tab v-for="info in infos" :class="{active: info.title === currentTab}" @on-switch="switchTab(info.title)" :info="info">
     </a-tab>
+    <div class="a-tab">
+      <a class="title" target="_blank" href="https://posts.tanki.ninja/">Posts and Notes</a>
+    </div>
   </div>
 
 </template>

@@ -1,3 +1,14 @@
+## **[Epic Games](https://www.epicgames.com)**
+#### @Cary, North Carolina
+##### Aug.2019 - Now
+**Ray tracing, Rendering Intern**
+* Working as a Rendering Engineer focused on Real-Time Ray Tracing features on Unreal team.
+* Contribute features to 4.23 and 4.24 major releases.
+* Exploring the Geometry features and related open problems, including ray tracing support for Niagara particle system primitives, world position offset support for dynamic geometries for ray tracing.
+* Adding RHI (Rendering Hardware Interface) Level ray tracing support and optimizing rendering performance.
+
+***
+
 ## **[Alibaba Group](http://taobao.com)**
 #### @Hangzhou, China
 ##### Jun.2015 – Sep.2015

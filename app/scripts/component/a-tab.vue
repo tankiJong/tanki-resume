@@ -29,7 +29,7 @@ export default {
 <style lang="sass">
 @import '../../styles/includes.scss';
 
-.title{
+.a-tab>.title{
   text-align: center;
   cursor: pointer;
   color: darken($bg-color, 10%);
@@ -37,9 +37,10 @@ export default {
   border: 1px solid darken($bg-color, 10%);
   width: 80%;
   margin: 21px auto;
-  line-height: 30px;
+  line-height: 28px;
   border-radius:15px;
   transition: all 0.5s;
+  display: block;
 
   &:first-child{
     margin-top: 20px;

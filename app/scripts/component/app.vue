@@ -25,7 +25,7 @@
       </div>
       <div class="info-tab-content" :class="{animate: isActive}">
         <div class="intro">
-          Hello, I'm a game developer @ <a target="_blank" href="//smu.edu/Guildhall">SMU Guildhall</a>.
+          Hello, I'm a game developer, pixel wizard and ray tracer.
         </div>
         <skill-stack></skill-stack>
         <tabs></tabs>

@@ -1,3 +1,10 @@
+### 2019.10
+* add ray tracing gem community work
+* add Epic games in work experience6
+
+### 2019.9
+* add urban renderer project
+
 ### 2018.11.28
 * add more content for thesis project
 * add CppCon volunteer experience
